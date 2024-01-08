@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background: #313131;
+  width: 100%;
+  overflow: hidden;
+  height: 700px;
+  justify-content: center;
+  background: linear-gradient(45deg, #ff33e4, #1fe4eb, #1f3bda);
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login h2 {
+  font-size: 3em;
+  color: #fff;
+}
+
+.inputBx {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inputBx input {
+  width: 100%;
+  padding: 12px 20px;
+  background: transparent;
+  border: 2px solid #413e3e;
+  border-radius: 40px;
+  font-size: 1.2em;
+  color: #ffffff;
+  box-shadow: none;
+  outline: none;
+  align-items: center;
+}
+
+.inputBx input[type="submit"] {
+  background: linear-gradient(45deg, #ee4795, #00eeff);
+  border: solid rgb(66, 65, 65);
+  cursor: pointer;
+  color: #fff;
+  width: 200px ;
+}
+
+.inputBx.centerButton {
+  display: flex;
+  justify-content: center;
+}
+.links {
+    display: flex;
+}
+.links a {
+  color: #fffcfc; /* Substitua #ff0000 pela cor desejada em formato hexadecimal, RGB, nome da cor, etc. */
+  text-decoration:none;
+  margin-right: 30PX;
+  
+}
+
+.links a:hover {
+  color: #ee52c7; /* Substitua #00ff00 pela cor desejada ao passar o mouse por cima. */
+}
+.box {
+    display: flex;
+    border: solid #d1d0d1;
+    width: 30%;
+    height:70%;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(36, 36, 36, 0.7);
+}
